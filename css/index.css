@@ -1,0 +1,175 @@
+body{
+    background-color: rgb(29, 29, 29);
+    margin: 0px;
+}
+
+/*ESPAÇAMENTOS*/
+.space_01{
+    background-color: beige;
+    height: 30vh;
+}
+.space_02{
+    background-color: beige;
+    height: 10vh;
+}
+.space_03{
+    background-color: beige;
+    height: 5vh;
+}
+
+/*BARRA DE NAVEGAÇÃO*/
+header{
+    margin: 0px;
+    background-color: aqua;
+    height: 70px;
+}
+
+/*FOOTER*/
+footer{
+    margin: 0px;
+    background-color: aqua;
+    height: 70px;
+}
+
+/*IMAGEM HOME*/
+.imagem_home{
+    margin: 0px;
+    background-color: rgb(21, 255, 0);
+    height: 63vh;
+}
+
+/*SOBRE*/
+.about{
+    margin: 0px;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20vh;
+    margin-right: 20vh;
+}
+.text_about{
+    background-color: rgb(194, 135, 46);
+    width: 50%;
+    height: 100%;
+}
+.picture_about{
+    background-color: rgb(201, 52, 181);
+    width: 50%;
+    height: 100%;
+}
+
+/*SERVIÇOS*/
+.services{
+    margin: 0px;
+    height: 91vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+}
+.service_01{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.img_service_1{
+    background-color: rgb(201, 52, 181);
+    width: 50%;
+    height: 100%;
+}
+.text_service_1{
+    background-color: rgb(194, 135, 46);
+    width: 50%;
+    height: 100%;
+}
+.service_02{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.img_service_2{
+    background-color: rgb(201, 186, 52);
+    width: 50%;
+    height: 100%;
+}
+.text_service_2{
+    background-color: rgb(194, 46, 194);
+    width: 50%;
+    height: 100%;
+}
+.service_03{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+}
+.img_service_3{
+    background-color: rgb(201, 52, 181);
+    width: 50%;
+    height: 100%;
+}
+.text_service_3{
+    background-color: rgb(194, 135, 46);
+    width: 50%;
+    height: 100%;
+}
+
+/*JOBS*/
+.jobs{
+    background-color: rgb(37, 87, 102);
+    margin: 0px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+}
+.text_jobs{
+    background-color: rgb(81, 194, 46);
+    margin-left: 20vh;
+    margin-right: 20vh;
+    width: 48.5%;
+    height: 100%;
+}
+.pictures_jobs{
+    background-color: rgb(194, 135, 46);
+    margin-left: 20vh;
+    width: 89.7%;
+    height: 100%;
+}
+
+/*DEMONSTRAÇÃO*/
+.demonstration{
+    margin: 0px;
+    background-color: rgb(37, 87, 102);
+    height: 40vh;
+    margin-right: 80vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.text_demo{
+    background-color: rgb(194, 135, 46);
+    width: 50%;
+    height: 100%;
+}
+
+/*FINAL*/
+.final_infos{
+    margin: 0px;
+    background-color: rgb(37, 87, 102);
+    height: 35vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
+        display: flex;
+    flex-direction: row;
+}
+.logotipo_footer{
+    background-color: rgb(194, 135, 46);
+    width: 50%;
+    height: 100%;
+}
+.nav_footer{
+    background-color: rgb(76, 194, 46);
+    width: 50%;
+    height: 100%;
+}
+.contact{
+    background-color: rgb(194, 46, 174);
+    width: 50%;
+    height: 100%;
+}
