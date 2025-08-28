@@ -125,7 +125,7 @@ footer{
 .img_service_1{
     background-color: rgb(201, 52, 181);
     width: 50%;
-    height: 100%;
+    height: auto;
 }
 .text_service_1{
     background-color: rgb(194, 135, 46);
@@ -141,7 +141,7 @@ footer{
 .img_service_2{
     background-color: rgb(223, 48, 194);
     width: 50%;
-    height: 100%;
+    height: auto;
 }
 .text_service_2{
     background-color: rgb(255, 139, 6);
