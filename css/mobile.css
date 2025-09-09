@@ -23,33 +23,30 @@ h1{
 
 /*ESPAÇAMENTOS*/
 .space_01{
-    background-color: beige;
-    height: 0vh;
+    height: 20vh;
 }
 .space_02{
-    background-color: beige;
-    height: 10vh;
+    height: 5vh;
 }
 .space_03{
-    background-color: beige;
-    height: 5vh;
+    height: 2vh;
 }
 
 /*BARRA DE NAVEGAÇÃO*/
 header{
     margin: 0px;
-    background-color: aqua;
     height: 70px;
 }
+
 /*IMAGEM HOME*/
 .imagem_home{
     margin: 0px;
-    background-color: rgb(21, 255, 0);
     height: 95vh;
 }
 
 /*SOBRE*/
 .about{
+    gap: 10px;
     margin: 0px;
     height: 50vh;
     display: flex;
@@ -58,59 +55,69 @@ header{
     margin-right: 5vh;
 }
 .text_about{
-    background-color: rgb(194, 135, 46);
     width: 100%;
     height: 100%;
     order: 2;
 }
 .picture_about{
-    background-color: rgb(201, 52, 181);
     width: 100%;
     height: 100%;
 }
 
 /*SERVIÇOS*/
+.serv_geral{
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
 .services{
     margin: 0px;
     height: 100%;
     margin-left: 5vh;
     margin-right: 5vh;
 }
-.service_left{
+.services_left {
+    margin: 0px;
     height: 100%;
+    margin-left: 5vh;
+    margin-right: 5vh;
     display: flex;
     flex-direction: column;
+    gap: 30px;
     align-items: center;
 }
 .img_service_1{
-    background-color: rgb(201, 52, 181);
     height: 20vh;
     width: 36.2vh;
     margin-left: 5vh;
     margin-right: 5vh;
 }
 .text_service_1{
-    background-color: rgb(194, 135, 46);
     height: 100%;
     width: 100%;
     margin-left: 5vh;
     margin-right: 5vh;
     margin: 0;
 }
-.service_right{
-    height: 30%;
+.services_right{
+    margin: 0px;
+    height: 100%;
+    margin-left: 5vh;
+    margin-right: 5vh;
     display: flex;
     flex-direction: column;
+    gap: 30px;
+    align-items: center;
 }
 .img_service_2{
-    background-color: rgb(201, 52, 201);
     height: 20vh;
     width: 36.2vh;
 }
 .text_service_2{
-    background-color: rgb(255, 145, 0);
-    width: 100%;
     height: 100%;
+    width: 100%;
+    margin-left: 5vh;
+    margin-right: 5vh;
     margin: 0;
     order: 2;
 }
@@ -123,14 +130,13 @@ header{
     flex-direction: column;
 }
 .text_jobs{
-    background-color: rgb(81, 194, 46);
+
     margin-left: 5vh;
     margin-right: 5vh;
     width: 78.5%;
-    height: 55%;
+    height: 35%;
 }
 .pictures_jobs{
-    background-color: rgb(194, 135, 46);
     margin-left: 5vh;
     width: 56.6%;
     height: 100%;
@@ -152,17 +158,29 @@ header{
 }
 
 /*FINAL*/
+footer{
+    display:flex;
+}
 .final_infos{
+    gap: 10px;
     margin: 0px;
-    background-color: rgb(37, 87, 102);
-    height: 50vh;
+    height: 100%;
     margin-left: 5vh;
     margin-right: 5vh;
     display: flex;
     flex-direction: column;
 }
+.back_final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: white;
+}
+.img_logo_2 {
+    width: 70%;
+}
 .logotipo_footer{
-    background-color: rgb(194, 135, 46);
     width: 100%;
     height: 100%;
 }
@@ -170,9 +188,12 @@ header{
     display: none;
 }
 .contact{
-    background-color: rgb(194, 46, 174);
     width: 100%;
     height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 .direitos_footer{
     font-size: 10px;

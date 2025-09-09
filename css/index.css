@@ -7,13 +7,25 @@ body{
 p{
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    font-size: 17px;
-    color: white;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
     text-align: justify;
+}
+.nav_footer li a{
+    color: rgb(0, 0, 0);
+}
+.contact h1{
+    color: black;
+}
+.contact p{
+    color: black;
+}
+.direitos_footer{
+    color: black;
 }
 h1{
     font-family: "Montserrat", sans-serif;
-    color: white;
+    color: rgb(255, 255, 255);
 }
 .serv_right{
     display: flex;
@@ -36,45 +48,52 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 30px;
+    gap: 15px;
 }
 a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 
 /*ESPAÇAMENTOS*/
 .space_01{
-    background-color: beige;
     height: 25vh;
 }
 .space_02{
-    background-color: beige;
     height: 10vh;
 }
 .space_03{
-    background-color: beige;
-    height: 5vh;
+    height: 10vh;
 }
 
 /*BARRA DE NAVEGAÇÃO*/
 header{
-
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     height: 70px;
     margin-left: 20vh;
     margin-right: 20vh;
     display: flex;
     justify-content: flex-end;
+    gap: 28vw;
     align-items: center;
+}
+.back_header{
+    background-color: white;
+}
+.img_logo_horizontal{
+    width: 20vw;
+    height: 100%;
+}
+.img_logo_1{
+    height: 100%;
 }
 
 /*FOOTER*/
 footer{
     margin: 0px;
-    background-color: aqua;
-    height: 70px;
+    background-color: rgb(253, 253, 253);
+    height: 45px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,10 +104,20 @@ footer{
     margin: 0px;
     background-color: rgb(21, 255, 0);
     height: 70vh;
+    overflow: hidden;
+    position: relative;
+}
+.imagem_home .img_home{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;       
+    object-position: center;  
+    display: block;
 }
 
 /*SOBRE*/
 .about{
+    gap: 25vh;
     margin: 0px;
     height: 50vh;
     display: flex;
@@ -100,7 +129,6 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(194, 135, 46);
     width: 50%;
     height: 100%;
 }
@@ -108,59 +136,84 @@ footer{
     background-color: rgb(201, 52, 181);
     width: 50%;
     height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.picture_about .img_about{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;       
+    object-position: center;  
+    display: block;
 }
 
 /*SERVIÇOS*/
-.services{
+.services_left{
     margin: 0px;
     height: 100%;
     margin-left: 20vh;
     margin-right: 20vh;
-}
-.service_left{
-    height: 30%;
     display: flex;
     flex-direction: row;
+    gap: 30px;
+    align-items: center;
 }
 .img_service_1{
-    background-color: rgb(201, 52, 181);
     width: 50%;
-    height: auto;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+}
+.img_service_1 .img_serv_1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;       
+    object-position: center;  
+    display: block;
 }
 .text_service_1{
-    background-color: rgb(194, 135, 46);
     width: 50%;
     height: 100%;
-    margin: 30px;
+    margin-right: 20vh;
 }
-.service_right{
-    height: 30%;
+.services_right{
+    margin: 0px;
+    height: 100%;
+    margin-right: 20vh;
+    margin-left: 20vh;
     display: flex;
     flex-direction: row;
+    gap: 30px;
+    align-items: center;
 }
 .img_service_2{
-    background-color: rgb(223, 48, 194);
     width: 50%;
-    height: auto;
+    height: 280px;
+    overflow: hidden;
+    position: relative;
+}
+.img_service_2 .img_serv_2{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;       
+    object-position: center;  
+    display: block;
 }
 .text_service_2{
-    background-color: rgb(255, 139, 6);
     width: 50%;
     height: 100%;
-    margin: 30px;
+    margin-left: 20vh;
 }
 
 
 /*JOBS*/
 .jobs{
-    background-color: rgb(37, 87, 102);
     margin: 0px;
     height: 40vh;
     display: flex;
     flex-direction: column;
 }
 .text_jobs{
-    background-color: rgb(81, 194, 46);
     margin-left: 20vh;
     margin-right: 20vh;
     width: 30%;
@@ -191,34 +244,44 @@ footer{
 }
 
 /*FINAL*/
+.back_final{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45vh;
+    background-color: white;
+}
 .final_infos{
     margin: 0px;
-    background-color: rgb(37, 87, 102);
     height: 35vh;
     margin-left: 20vh;
     margin-right: 20vh;
-        display: flex;
+    display: flex;
     flex-direction: row;
+    gap: 20vh;
 }
 .logotipo_footer{
-    background-color: rgb(194, 135, 46);
     width: 50%;
     height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .nav_footer{
     display: flex;
     justify-content: flex-start;
     align-self: flex-start;
-    background-color: rgb(76, 194, 46);
     width: 50%;
     height: 100%;
 }
 .contact{
-    background-color: rgb(194, 46, 174);
     width: 50%;
     height: 100%;
     display: flex;
     align-items: flex-start;
     justify-content: center;
     flex-direction: column;
+}
+.img_logo_2{
+    height: 100%;
 }
